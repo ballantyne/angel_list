@@ -14,13 +14,9 @@ Gem::Specification.new do |gem|
   gem.name          = "angel_list"
   gem.require_paths = ["lib"]
   gem.version       = AngelList::VERSION
-  gem.add_dependency(%q<curb>, [">= 0"])
-  gem.add_dependency(%q<typhoeus>, [">= 0"])
   gem.add_dependency(%q<faraday>, [">= 0"])
   gem.add_dependency(%q<hashie>, [">= 0"])
   gem.add_dependency(%q<yajl-ruby>, [">= 0"])
-  gem.add_dependency(%q<nokogiri>, [">= 0"])
-  gem.add_dependency(%q<hpricot>, [">= 0"])
   gem.add_dependency(%q<oauth2>, [">= 0"])
   gem.add_development_dependency(%q<pry>, ['>= 0'])
 end
