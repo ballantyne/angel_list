@@ -3,6 +3,7 @@ require 'angel_list/config'
 require 'angel_list/base'
 require 'angel_list/tools'
 require 'angel_list/startup'
+require 'angel_list/status_update'
 require 'angel_list/user'
 require 'angel_list/auth'
 require 'angel_list/response'
@@ -18,3 +19,4 @@ else
   #      "  Please set AngelList::Config.client_id and \n  Weibo::Config.api_secret\n  somewhere in your initialization process\n\n" +
   #      "=========================================================\n\n"
 end
+

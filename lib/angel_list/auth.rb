@@ -28,5 +28,10 @@ module AngelList
       self.token = self.client.auth_code.get_token(c, :redirect_uri => self.options[:redirect_uri])
       self
     end
+    
+    def from_hash(token)
+      self.token = OAuth2::AccessToken.new(self.client, token)
+      self
+    end
   end
 end
