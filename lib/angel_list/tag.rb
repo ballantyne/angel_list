@@ -1,7 +1,5 @@
 module AngelList
-  class Tag
-    def initialize(options)
-      
-    end
+  class Tag < Base
+
   end
 end

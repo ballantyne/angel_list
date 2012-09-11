@@ -1,7 +1,4 @@
 module AngelList
-  class Follow
-    def initialize(options)
-      
-    end
+  class Follow < Base
   end
 end

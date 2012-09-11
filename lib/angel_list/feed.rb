@@ -1,7 +1,4 @@
 module AngelList
-  class Feed
-    def initialize(options)
-      
-    end
+  class Feed < Base
   end
 end

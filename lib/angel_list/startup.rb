@@ -1,7 +1,4 @@
 module AngelList
-  class Startup
-    def initialize(options)
-      
-    end
+  class Startup < Base
   end
 end

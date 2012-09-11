@@ -1,7 +1,5 @@
 module AngelList
-  class StatusUpdate
-    def initialize(options)
-      
-    end
+  class StatusUpdate < Base
+    
   end
 end

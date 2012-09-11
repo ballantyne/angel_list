@@ -1,7 +1,4 @@
 module AngelList
-  class Message
-    def initialize(options)
-      
-    end
+  class Message < Base
   end
 end

@@ -1,7 +1,4 @@
 module AngelList
-  class Path
-    def initialize(options)
-      
-    end
+  class Path < Base
   end
 end

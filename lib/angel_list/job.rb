@@ -1,7 +1,4 @@
 module AngelList
-  class Job
-    def initialize(options)
-      
-    end
+  class Job < Base
   end
 end

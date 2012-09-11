@@ -1,7 +1,4 @@
 module AngelList
-  class Review
-    def initialize(options)
-      
-    end
+  class Review < Base
   end
 end

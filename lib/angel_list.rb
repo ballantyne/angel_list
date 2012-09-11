@@ -1,9 +1,11 @@
 require "angel_list/version"
 require 'angel_list/config'
+require 'angel_list/base'
 require 'angel_list/tools'
 require 'angel_list/startup'
 require 'angel_list/user'
 require 'angel_list/auth'
+require 'angel_list/response'
 
 if File.exists?('config/angel_list.yml')
   oauth_config = YAML.load_file('config/weibo.yml')[ENV["RAILS_ENV"] || ENV["RACK_ENV"] || "development"]

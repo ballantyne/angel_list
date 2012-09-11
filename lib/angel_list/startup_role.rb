@@ -1,7 +1,4 @@
 module AngelList
-  class StartupRole
-    def initialize(options)
-      
-    end
+  class StartupRole < Base
   end
 end

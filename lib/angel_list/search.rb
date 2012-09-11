@@ -1,7 +1,4 @@
 module AngelList
-  class Search
-    def initialize(options)
-      
-    end
+  class Search < Base
   end
 end

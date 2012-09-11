@@ -1,7 +1,4 @@
 module AngelList
-  class Press
-    def initialize(options)
-      
-    end
+  class Press < Base
   end
 end
