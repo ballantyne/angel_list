@@ -25,7 +25,7 @@ module AngelList
     end
     
     def following_ids(id, options={})
-      get('https://api.angel.co/1/users/'+id.to_s+'/following/ids', options))
+      get('https://api.angel.co/1/users/'+id.to_s+'/following/ids', options)
     end
     
     def startup(id)
