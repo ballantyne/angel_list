@@ -9,7 +9,7 @@ module AngelList
     end
     
     def all(view=:inbox)
-      get('https://api.angel.co/1/messages' {:view => view})
+      get('https://api.angel.co/1/messages', {:view => view})
     end
   end
 end
