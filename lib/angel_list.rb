@@ -21,7 +21,7 @@ require 'angel_list/tag'
 require 'angel_list/response'
 
 if File.exists?('config/angel_list.yml')
-  oauth_config = YAML.load_file('config/weibo.yml')[ENV["RAILS_ENV"] || ENV["RACK_ENV"] || "development"]
+  oauth_config = YAML.load_file('config/angel_list.yml')[ENV["RAILS_ENV"] || ENV["RACK_ENV"] || "development"]
   puts oauth_config.inspect
   AngelList::Config.options = oauth_config
 
