@@ -1,5 +1,11 @@
 module AngelList
   class Config
-    attr_accessor :options
+    def self.options=(val)
+      @@options = val
+    end
+    
+    def self.options
+      @@options
+    end
   end
 end
