@@ -30,11 +30,11 @@ then in the callback
     a = AngelList::Auth.new(:client_id => 'client_id', 
                         :client_secret => 'client_secret', 
                         :redirect_uri => 'http://127.0.0.1:3000/auth/angel_list/callback')
-    token = a.code(params[:code])
-    puts token.token.token.inspect.to_s
+    token = a.code(params[:code]).token.token.inspect.to_s
+    puts token
 now you can save the token and get another access token later with it like this
 
-    a.from_hash(token.token)
+    a.from_hash(token)
 
 after you have a token, you can make authorized requests:
 
