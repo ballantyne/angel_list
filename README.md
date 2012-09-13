@@ -31,7 +31,7 @@ then in the callback
                         :client_secret => 'client_secret', 
                         :redirect_uri => 'http://127.0.0.1:3000/auth/angel_list/callback')
     token = a.code(params[:code])
-    puts token.token
+    puts token.token.token.inspect.to_s
 now you can save the token and get another access token later with it like this
 
     a.from_hash(token.token)
