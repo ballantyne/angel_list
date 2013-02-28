@@ -1,6 +1,6 @@
 # AngelList
 
-TODO: Write a gem description
+This is a gem that interacts with the AngelList api.
 
 ## Installation
 
